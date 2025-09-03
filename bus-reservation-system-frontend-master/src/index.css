@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Skyblue theme */
+.custom-bg {
+  background-color: #00bfff; /* Deep skyblue */
+}
+
+.text-color {
+  color: #00334d; /* Dark navy blue for contrast */
+}
+
+.text-color1 {
+  color: #00bfff; /* Matching skyblue */
+}
+
+.border-color {
+  border-color: #0096c7; /* Slightly darker skyblue */
+}
+
+.custom-bg-text {
+  color: #e6f9ff; /* Very light skyblue text */
+}
+
+.bg-color {
+  background-color: #87ceeb; /* Light skyblue */
+}
+
+.rounded-card {
+  padding: 1.5em .5em .5em;
+  border-radius: 2em;
+  box-shadow: 0 5px 10px rgba(0, 191, 255, 0.2); /* skyblue shadow */
+}
+
+.form-card {
+  padding: .2em .2em .2em;
+  border-radius: 1em;
+  box-shadow: 0 5px 10px rgba(0, 191, 255, 0.2); /* skyblue shadow */
+}
+
+.card {
+  transition: transform 0.2s ease;
+}
+
+.card:hover .product-card {
+  transform: scale(1.02);
+}
